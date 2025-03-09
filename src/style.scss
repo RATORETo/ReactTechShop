@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+
+}
+
+body a {
+  text-decoration: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-left div {
+  margin-right: 23px;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.header-right div {
+  align-items: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.header-left {
+  display: flex;
+
+
+  .leftImg {
+    margin-right: 4px;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.header-right {
+  display: flex;
+}
+
+.language span {
+  align-items: center;
+  justify-content: center;
+  border: 1px solid hsla(0, 0%, 85%, 0.2);
+  border-radius: 150px;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: 20px;
+  padding: 2px 4px;
+  width: 70px;
+}
+
+.language {
+  margin-top: 4px;
+  display: flex;
+}
+
+
+.middleHeader {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  width: 700px;
+  height: 40px;
+}
+
+.middleHeader .headerSearch input {
+  width: 600px;
+  height: 40px;
+  border: 2px solid #fbc100;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.middleHeader .headerSearch {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.headerMidRight {
+  display: flex;
+}
+
+.Order {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 42px;
+  margin-right: 42px;
+}
+
+.Order img {
+  width: 24px;
+  height: 24px;
+}
+
+.favorites {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 42px;
+}
+
+.favorites img {
+  width: 24px;
+  height: 24px;
+}
+
+.carts {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.carts img {
+  width: 24px;
+  height: 24px;
+}
+
+
+.headerBottom {
+  margin-top: 24px;
+
+  .cotygory {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+}

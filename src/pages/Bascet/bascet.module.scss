@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Roboto", serif;
+
+    .TitleBascet {
+        margin-top: 24px;
+        font-size: 31px;
+        margin-bottom: 24px;
+    }
+}
+
+
+.mapItem {
+    display: flex;
+}
+
+
+.item {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    margin-bottom: 16px;
+    margin-top: 6px;
+
+
+
+    &:hover {
+        box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
+        transform: translateY(-5px);
+    }
+
+    .imgItem {
+        width: 120px;
+        height: 120px;
+        border-radius: 10px;
+        margin-right: 24px;
+    }
+
+    .info {
+        display: flex;
+        font-family: "Roboto", serif;
+        flex-direction: column;
+        justify-content: space-between; 
+        width: 300px;
+
+
+        .Title {
+            height: 40px;
+            font-size: 17px;
+
+        }
+
+        .price {
+            font-size: 15px;
+        }
+
+    }
+
+}
+
+.remove {
+
+
+    button {
+        margin-top: 12px;
+        border: none;
+        background-color: transparent;
+        font-size: 12px;
+        cursor: pointer;
+    }
+}
+
+.Order {
+
+    .orderButton {
+        width: 240px;
+        height: 50px;
+        border-radius: 10px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        border: none;
+        background-color: #fbc100;
+        font-size: 19px;
+        cursor: pointer;
+    }
+}
+
+.counter {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #fbc100;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fbc100;
+
+
+
+    button {
+        width: 42px;
+        height: 32px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        background-color: #fbc100;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+}
+
+.remouveItem {
+    button {
+        width: 120px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border: none;
+        background-color: #fbc100;
+        border-radius: 20px;
+        font-size: 18px;
+    }
+
+}
